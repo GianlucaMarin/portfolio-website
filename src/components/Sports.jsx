@@ -4,25 +4,25 @@ import { Trophy, Award, Target, Medal } from 'lucide-react';
 const Sports = () => {
   const achievements = [
     {
-      title: 'Schweizer Meister',
+      title: 'Swiss National Champion',
       detail: 'National Championship Winner',
       icon: Trophy,
       gradient: 'from-yellow-400 to-yellow-600'
     },
     {
-      title: 'ITF Holland - 2. Platz',
+      title: 'ITF Holland - 2nd Place',
       detail: 'International Tournament Silver',
       icon: Medal,
       gradient: 'from-gray-300 to-gray-500'
     },
     {
-      title: 'Europameisterschaft 2017 - 4. Platz',
+      title: 'European Championship 2017 - 4th Place',
       detail: 'European Championship',
       icon: Award,
       gradient: 'from-orange-400 to-orange-600'
     },
     {
-      title: 'Schweizer Nationalkader',
+      title: 'Swiss National Squad',
       detail: '5 Years | 2 Years at Swisstennis Training Base Biel',
       icon: Target,
       gradient: 'from-cyan-400 to-cyan-600'
