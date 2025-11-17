@@ -619,14 +619,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgments
-
-- **React Team** - For the amazing React library
-- **Vercel** - For seamless deployment platform
-- **Framer** - For the powerful animation library
-- **Tailwind Labs** - For the utility-first CSS framework
-- **Lucide** - For the beautiful icon library
-
----
-
 **Built with ❤️ using React, Vite, and Tailwind CSS**
