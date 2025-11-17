@@ -5,33 +5,33 @@ const Education = () => {
   const educationData = [
     {
       institution: 'Business Artificial Intelligence FHNW Olten',
-      period: '09.2024 - heute',
+      period: '09.2024 - today',
       current: true,
     },
     {
-      institution: 'BM2 KV Zürich / Typ Wirtschaft',
+      institution: 'Professional Baccalaureate in Business / KV Zürich',
       period: '08.2023 - 07.2024',
       current: false,
     },
     {
       institution: 'UNITED School of Sports Zürich',
-      program: 'Kaufmännische Grundbildung für Sporttalente',
+      program: 'Commercial Apprenticeship for Sports Talents',
       period: '08.2020 - 07.2023',
       current: false,
     },
     {
-      institution: 'Sporthandelsschule BFB Biel',
+      institution: 'Sports Business School BFB Biel',
       period: '08.2018 - 07.2020',
       current: false,
     },
   ];
 
   const certificates = [
-    'Handelsdiplom BFB',
-    'B2 First Zertifikat (Englisch)',
-    'B1 Française DELF B1 Zertifikat (Französisch)',
-    'Eidg. Fähigkeitszeugnis Kauffrau/-mann, Profil E',
-    'Berufsmaturitätszeugnis',
+    'Commercial Diploma BFB',
+    'B2 First Certificate (English)',
+    'DELF B1 Certificate (French)',
+    'Federal Certificate of Competence in Commercial Training, Profile E',
+    'Professional Baccalaureate Certificate',
   ];
 
   return (
