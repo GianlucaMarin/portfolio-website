@@ -14,7 +14,7 @@ const Projects = () => {
         'Model explainability with ICE curves',
         'Performance evaluation and validation'
       ],
-      tech: ['Python', 'pandas', 'scikit-learn', 'Data Preprocessing', 'Feature Engineering', 'Classification Models', 'Model Explainability'],
+      tech: ['Tableau Prep', 'Orange', 'Data Preprocessing', 'Feature Engineering', 'Classification Models', 'Model Explainability'],
       gradient: 'from-cyan-500 to-cyan-600',
       // icon: BrainCircuit,
       // iconColor: 'text-cyan-400',
@@ -70,6 +70,23 @@ const Projects = () => {
       ],
       tech: ['Python', 'FastAPI', 'React', 'TypeScript', 'MySQL', 'Playwright', 'Tailwind CSS', 'Vite', 'REST API'],
       gradient: 'from-orange-500 to-orange-600',
+    },
+    {
+      title: 'Solana DQN Trading Bot',
+      description: 'Reinforcement learning trading agent for SOL/USDT cryptocurrency trading. The bot uses Deep Q-Networks to learn profitable trading strategies through trial and error. Implemented a rolling window ensemble approach with multi-timeframe confirmation to handle changing market conditions. Key challenge was overcoming reward shaping pitfalls that caused the agent to remain inactive.',
+      implementation: [
+        'Custom Gymnasium trading environment with Long/Short/Hold/Close actions',
+        'Feature engineering with technical indicators (RSI, MACD, SMA, ATR)',
+        'DQN agent with experience replay and epsilon-greedy exploration',
+        'Rolling window ensemble training for different market regimes',
+        'Multi-timeframe confirmation system (15min + 1h models)',
+        'Reward function optimization to encourage active trading',
+        'Hyperparameter tuning to prevent overfitting (shallow 64-64 network)',
+        'MySQL database for historical price data storage',
+        'Live trading integration with Binance Futures API'
+      ],
+      tech: ['Python', 'PyTorch', 'Stable-Baselines3', 'Gymnasium', 'MySQL', 'Binance API', 'Pandas', 'DQN', 'Reinforcement Learning'],
+      gradient: 'from-green-500 to-green-600',
     },
   ];
 
