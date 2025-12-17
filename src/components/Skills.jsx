@@ -13,7 +13,7 @@ const Skills = () => {
       category: 'Frameworks & Databases',
       icon: Server,
       gradient: 'from-purple-500 to-purple-600',
-      skills: ['React', 'FastAPI', 'LangChain', 'Tailwind CSS', 'Pandas', 'SQLite', 'MySQL', 'Qdrant'],
+      skills: ['React', 'FastAPI', 'LangChain', 'Tailwind CSS', 'Pandas', 'SQLite', 'MySQL', 'Qdrant', 'PyTorch', 'Stable-Baselines3', 'Gymnasium'],
     },
     {
       category: "Tools I've Worked With",
